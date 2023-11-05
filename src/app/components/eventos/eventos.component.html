@@ -1,0 +1,11 @@
+<div class="class">
+
+    <p *ngIf = "show">Exibindo mensagem!</p>
+    <button (click) = "showMessage()">Clique aqui!</button>
+
+    <p *ngIf = "RedOrGreen; else green" [ngClass] = "pred">Vermelho!</p>
+    <ng-template #green>
+        <p [ngClass] = "preen">Verde!</p>
+    </ng-template>
+    <button (click) = "tradeColors()">Trade color</button>
+</div>

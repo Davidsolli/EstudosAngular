@@ -1,0 +1,15 @@
+.small-title {
+    font-size: 12px;
+}
+
+.green-title {
+    color: green;
+}
+
+.underline-title {
+    text-decoration: underline;
+}
+
+h2 {
+    color: aliceblue;
+}

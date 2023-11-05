@@ -1,0 +1,11 @@
+<div class="class">
+    <p>teste works!</p>
+    <p *ngIf = "name === 'David'; else notLogin ">Nome do usuário: {{name}}</p>
+    <ng-template #notLogin>
+        <div>
+            <h2>
+                Você não esta logado(a)! {{name}}
+            </h2>
+        </div>
+    </ng-template>
+</div>
